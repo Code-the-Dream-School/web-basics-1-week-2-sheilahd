@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0px;
+  font-size:100%;
+
+}
+
+
+html{
+  font-weight: 100%;
+  font-family: verdana;
+}
+body{
+  width: 100%;
+  margin: auto;
+  background-color: #CBC2C2;
+
+  /* background-image: url(images/background-yellow.jpeg);
+   background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+}
+#container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+
+  /* background-color: #CBC2C2; */
+
+}
+#pagegrapper{
+  border:1px black solid;
+  min-height: 500px;
+
+}
+
+
+
+p{
+  font-weight: 100;
+  margin-top: 10px;
+
+}
+a:hover{
+  color:#0499ff;
+}
+
+/* ----------Nav---------------- */
+.navbar{
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  /* background-color: #1E777B; */
+  background-color:  #EDE6E6;
+  min-height: 70px;
+  position: fixed;
+}
+
+.contactMe, .navIcons {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.navIcons {
+  text-align: right;
+}
+.navIcons a, .contactMe a, .contactMe img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navIcons a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: dark blue;
+}
+
+.mylogo {
+  height: 50px;
+ width: 55px;
+ border-radius: 50%;
+}
+
+/* ----------About Me---------------- */
+.aboutMeGen{
+padding: 20px;
+
+}
+.aboutMeDesc{
+
+  justify-content: space-between;
+  margin-top: 4em;
+
+  text-align:center;
+  text-decoration: none;
+
+}
+
+.mypic{
+    height: 300px;
+   width: 300px;
+   border-radius: 50%;
+   /* float: right; */
+   border: 3px solid beich;
+  }
+
+
+
+/* ----------Projects---------------- */
+
+
+.projheader{
+  background-color:  #EDE6E6;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+  .project1-text{
+    font-size: 20px;
+    float:right;
+    padding:20px;
+
+  }
+
+
+.archImag{
+  float: left;
+  padding:20px;
+
+
+}
+
+.project2-text{
+  margin-top: 2em;
+  font-size: 20px;
+  float:left;
+  padding:20px;
+
+}
+.natImag{
+  float:right;
+  padding:20px;
+}
+/*----------- footer -----*/
+.footer-gen{
+  height: 20px;
+  width: 100%;
+  background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+  /* margin-top: 20px; */
+  background-color:  #EDE6E6;
+}
+.footer-content{
+  height:20px;
+  width: 1000px;
+  margin:auto;
+}
