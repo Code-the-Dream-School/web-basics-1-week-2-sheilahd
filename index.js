@@ -1,5 +1,5 @@
-// function openalert()
-// {
-//   alert("Welcome to my new site");
-// }
-// openalert();
+function openalert()
+{
+  alert("Welcome to my new site");
+}
+openalert();
